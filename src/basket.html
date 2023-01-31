@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+    @@include('html/head.html', {
+        "title":"Корзина"
+    })
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__main">
+                <div class="logo">
+                    <img src="./img/logo.svg" alt="" class="logo__img">
+                    <div class="logo__txt">
+                        <span>YA BAO</span>
+                        Дух китайской еды
+                    </div>
+                </div>
+                <div class="deliviry">
+                    Доставка пиццы <span>Москва</span>
+                </div>
+                <div class="call">
+                    <button class="call__btn">заказать звонок</button>
+                    <a class="call__tel" href="tel:+78003333662">8 800 333 36 62</a>
+                </div>
+            </div>
+            <div class="header__second">
+                <div class="links">
+                    <a href="./index.html" class="links__child">Паста</a>
+                    <a href="#" class="links__child">Супы</a>
+                    <a href="#" class="links__child">Салаты</a>
+                    <a href="#" class="links__child">Антипасти</a>
+                    <a href="#" class="links__child">Напитки</a>
+                    <a href="#" class="links__child">Десерты</a>
+                    <a href="#" class="links__child">Бакалея</a>
+                    <a href="./stock.html" class="links__child">Акции</a>
+                    <a href="#" class="links__child">Комбо</a>
+                    <a href="./contact.html" class="links__child">Контакты</a>
+                </div>
+                <div class="login">
+                    <button class="login__btn">Войти</button>
+                </div>
+                <div class="basket">
+                    <button class="basket__btn">Корзина | <span>1</span></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="basketMain">
+            <div class="container3">
+                <h3 class="basketMain__name">Корзина</h3>
+                <div class="basketMain__blocks">
+                    <div class="blockBasket">
+                        <div class="blockBasket__img">
+                            <img src="./img/basket/pizza.png" alt="">
+                        </div>
+                        <div class="blockBasket__txt">
+                            <div class="nameBasket">
+                                <h4>С креветками и трюфелями</h4>
+                                <p>Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</p>
+                            </div>
+                            <div class="basketPrice">120 ₽</div>
+                            <div class="basketBtn">
+                                <button class="basketBtn__minus">-</button>
+                                <p class="basketBtn__value">1</p>
+                                <button class="basketBtn__plus">+</button>
+                            </div>
+                            <button class="basketClear">
+                                <!-- <img src="./img/basket/clear.svg" alt=""> -->
+                            </button>
+                        </div>
+                    </div>
+                    <div class="blockBasket">
+                        <div class="blockBasket__img">
+                            <img src="./img/basket/pizza2 9.png" alt="">
+                        </div>
+                        <div class="blockBasket__txt">
+                            <div class="nameBasket">
+                                <h4>С креветками и трюфелями</h4>
+                                <p>Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г</p>
+                            </div>
+                            <div class="basketPrice">120 ₽</div>
+                            <div class="basketBtn">
+                                <button class="basketBtn__minus">-</button>
+                                <p class="basketBtn__value">1</p>
+                                <button class="basketBtn__plus">+</button>
+                            </div>
+                            <button class="basketClear">
+                                <!-- <img src="./img/basket/clear.svg" alt=""> -->
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container3">
+            
+            <div class="sliderBasket">
+                <h3 class="sliderBasket__logo">Добавить к заказу?</h3>
+                <div class="slider-basket swiper">
+                    <div class="slider-basket-wrapper swiper-wrapper">
+                        <div class="slider-basket__item swiper-slide">
+                            <div class="imgSlider">
+                                <img src="./img/slider/basket/add1.png" alt="">
+                            </div>
+                            <div class="txtSlider">
+                                <p>Молочный коктель</p>
+                                <p>с приятным ароматом</p>
+                                <span>от 120 ₽</span>
+                            </div>
+                        </div>
+                        <div class="slider-basket__item swiper-slide">
+                            <div class="imgSlider">
+                                <img src="./img/slider/basket/add2.png" alt="">
+                            </div>
+                            <div class="txtSlider">
+                                <p>Молочный коктель</p>
+                                <p>с приятным ароматом</p>
+                                <span>от 120 ₽</span>
+                            </div>
+                        </div>
+                        <div class="slider-basket__item swiper-slide">
+                            <div class="imgSlider">
+                                <img src="./img/slider/basket/add3.png" alt="">
+                            </div>
+                            <div class="txtSlider">
+                                <p>Молочный коктель</p>
+                                <p>с приятным ароматом</p>
+                                <span>от 120 ₽</span>
+                            </div>
+                        </div>
+                        <div class="slider-basket__item swiper-slide">
+                            <div class="imgSlider">
+                                <img src="./img/slider/basket/add3.png" alt="">
+                            </div>
+                            <div class="txtSlider">
+                                <p>Молочный коктель</p>
+                                <p>с приятным ароматом</p>
+                                <span>от 120 ₽</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-basket-next">
+                        <img src="../img/slider/basket/next.svg" alt="">
+                    </div>
+                    <div class="slider-basket-prev">
+                        <img src="../img/slider/basket/prev.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    @@include('html/footer.html')
+    <script src="js/app.min.js"></script>
+</body>
+</html>
