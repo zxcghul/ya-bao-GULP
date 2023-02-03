@@ -58,12 +58,25 @@
 }
 
 .slider-basket-next {
+    position: absolute;
+    left: 114rem;
+    top: 58rem;
     width: 3.1rem;
     height: 3.1rem;
+    z-index: 100;
 }
 
 
 .slider-basket-prev {
+    position: absolute;
+    top: 58rem;
+    right: 114rem;
     width: 3.1rem;
     height: 3.1rem;
+    z-index: 100;
+}
+
+.sliderBasket {
+
+    padding: 0 0 4rem 0;
 }
