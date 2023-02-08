@@ -1,0 +1,21 @@
+.point {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // background-image: url(../img/basket/Line.svg);
+    // background-size: 10.2rem;
+    &::after {
+        height: 0.25rem;
+        width: 10.2rem;
+        content: '';
+        background-image: url(../img/basket/Line.svg);
+        background-size: 10.2rem;
+        position: relative;
+        left: 8.5rem;
+        margin-top: -5rem;
+    }
+    &:last-child::after {
+        display: none;
+    }
+    
+}

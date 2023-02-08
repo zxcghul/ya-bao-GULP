@@ -2,4 +2,8 @@
     display: flex;
     gap: 2.5rem;
     height: 12.8rem;
+    border-top: 1px solid #ECECF1; 
+    &:last-child {
+        border-bottom: 1px solid #ECECF1; 
+    }
 }

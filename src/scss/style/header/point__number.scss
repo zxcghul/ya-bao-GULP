@@ -1,0 +1,18 @@
+.point__number {
+    border: .2rem solid #FF2E65;
+    border-radius: 50%;
+    padding: .4rem 1.5rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2.8rem;
+    color: #FF2E65;
+}
+
+.active {
+    .point__number {
+        color: #FFFFFF;
+        background: #FF2E65;
+    }
+}
