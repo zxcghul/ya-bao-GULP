@@ -1,0 +1,22 @@
+.paste {
+    display: flex;
+    gap: 1.3rem;
+    margin: 0 0 1.9rem 0;
+    p {
+        padding: .6rem 5.3rem;
+        background: #F3F3F7;
+        border-radius: .8rem;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.1rem;
+        line-height: 2.8rem;
+        color: #828792;
+    }
+    .paste__active {
+        background: #FF2E65;
+        opacity: 0.9;
+        font-weight: 700;    
+        color: #FFFFFF;
+    }
+}

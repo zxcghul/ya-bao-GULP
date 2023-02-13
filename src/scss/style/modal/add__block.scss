@@ -1,0 +1,35 @@
+.add__block {
+    padding: 1.7rem 1.2rem;
+    background: #FFFFFF;
+    border: .15rem solid #E2E2E9;
+    border-radius: 1.2rem;
+    img {
+
+        width: 6.5rem;
+        height: 7.1rem;
+
+    }
+
+    p {
+        margin: 0 0 1.1rem 0;
+        width: 7.6rem;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.3rem;
+        line-height: 1.4rem;
+        text-align: center;
+        color: #000000;
+    }
+
+    p:last-child {
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        text-align: center;
+        color: #FF2E65;
+    }
+}

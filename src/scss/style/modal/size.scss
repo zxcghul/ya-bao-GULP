@@ -1,0 +1,18 @@
+.size {
+    display: flex;
+    gap: 1.3rem;
+    margin: 0 0 .9rem 0;
+    .size__active {
+        font-weight: 700;
+        color: #FFFFFF;
+        background: #FF2E65;
+        opacity: 0.9;  
+    }
+    p {
+        padding: .6rem 2.1rem;
+        color: #828792;
+        background: #F3F3F7;
+        border-radius: .8rem;
+    }
+}
+
