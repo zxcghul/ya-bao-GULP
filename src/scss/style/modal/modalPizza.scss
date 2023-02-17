@@ -1,4 +1,14 @@
 .modalPizza {
+    width: 100.8rem;
+    height: 61rem;
+    position: absolute;
+    top: 5rem;
+    transform: translate(20%, 0);
     display: flex;
     gap: 2.6rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.08);
+    border-radius: 22px;
+    padding: 2.9rem 2.9rem 4rem 4rem;
+    z-index: 9999;
 }

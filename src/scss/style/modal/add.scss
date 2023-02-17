@@ -1,6 +1,22 @@
+
 .add {
     display: flex;
+    height: 28rem;
     flex-wrap: wrap;
     width: 35rem;
     gap: 1.1rem;
+    overflow-y: scroll;
+    padding-bottom: 3rem;
+    &::-webkit-scrollbar {
+        width: 0;
+    }
+    &::after {
+        content: url(../img/modal/blur.png);
+        width: 35rem;
+        overflow-x: hidden;
+        position: absolute;
+        margin-top: 25rem;
+        margin-left: -1rem;
+        filter: blur(5px);
+    } 
 }
