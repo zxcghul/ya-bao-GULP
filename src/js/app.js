@@ -1,8 +1,7 @@
 
 import * as flsFunctions from "./modules/functions.js";
 import Swiper,  {Navigation, Pagination } from 'swiper';
-flsFunctions.testWebP();
-
+// flsFunctions.testWebP();
 
 
 const slider = () => {
@@ -59,3 +58,4 @@ const sliderBasket = () => {
 
 slider();
 sliderBasket();
+

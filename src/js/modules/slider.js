@@ -1,4 +1,5 @@
 export const slider = () => {
+    
     const slider = new Swiper('.slider-wrap', {
         loop: true, 
         speed: 2000,
