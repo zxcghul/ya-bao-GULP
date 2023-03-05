@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+    @@include('html/head.html', {
+        "title":"Корзина"
+    })
+<body>
+    <header class="header bskt">
+        <div class="container">
+            <div class="header__main header__basket">
+                <div class="logo">
+                    <img src="./img/logo.svg" alt="" class="logo__img">
+                    <div class="logo__txt">
+                        <span>YA BAO</span>
+                        Дух китайской еды
+                    </div>
+                </div>
+                <div class="points">
+                    <div class="point">
+                        <div class="point__number">
+                            1
+                        </div>
+                        <div class="point__txt">
+                            <p>Корзина</p>
+                        </div>
+                    </div>
+                    <div class="point active">
+                        <div class="point__number active">
+                            2
+                        </div>
+                        <div class="point__txt">
+                            <p>Оформление заказа</p>
+                        </div>
+                    </div>
+                    <div class="point">
+                        <div class="point__number active">
+                            3
+                        </div>
+                        <div class="point__txt">
+                            <p>Заказ принят</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <div class="order">
+            <h3 class="title">
+                Заказ на доставку
+            </h3>
+            <div class="order__block">
+                <div class="adress">
+                    <div class="adress__input">
+                        <form action="" class="form">
+                            <label class="form__label">Имя
+                                <input type="text" placeholder="Илья">
+                            </label>
+                            <label class="form__label">Номер телефона
+                                <input type="text" placeholder="+7 999 999-99-99">
+                            </label>
+                            <label class="form__label">Адрес доставки
+                                <input type="textarea" placeholder="ул. КИМа, д. 1, под. Последний, эт. Последний, кв. 22, код Домофон">
+                            </label>
+                            <label class="form__label">Время доставки
+                                <input type="text" placeholder="Побыстрее">
+                            </label>
+                        </form>
+                    </div>
+                    <div class="promo">
+                        <div class="container3">
+                            <h3 class="promo__logo">Промокод</h3>
+                            <div class="promo__block">
+                                <label class="promoInput">
+                                    <input class="promoInput__txt" type="text" placeholder="Введите промокод">
+                                    <input class="promoInput__sbm" type="submit" value="Применить">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="check">
+                    <h3 class="title">
+                        Состов заказа
+                    </h3>
+                    <div class="check__sum">
+                        <div class="check__block">
+                            <div class="check__blockName">
+                                <h3>
+                                    Кломбо за 599 ₽
+                                </h3>
+                                <p>
+                                    Средняя 30 см, традиционное тесто
+                                </p>
+                            </div>
+                            <div class="check__blockPrice">
+                                599₽
+                            </div>
+                        </div>
+                        <div class="check__block">
+                            <div class="check__blockName">
+                                <h3>
+                                    Кломбо за 599 ₽
+                                </h3>
+                                <p>
+                                    Средняя 30 см, традиционное тесто
+                                </p>
+                            </div>
+                            <div class="check__blockPrice">
+                                599₽
+                            </div>
+                        </div>
+                        <div class="check__block">
+                            <div class="check__blockName">
+                                <h3>
+                                    Кломбо за 599 ₽
+                                </h3>
+                                <p>
+                                    Средняя 30 см, традиционное тесто
+                                </p>
+                            </div>
+                            <div class="check__blockPrice">
+                                599₽
+                            </div>
+                        </div>
+                        <div class="check__block">
+                            <div class="check__blockName">
+                                <h3>
+                                    Кломбо за 599 ₽
+                                </h3>
+                                <p>
+                                    Средняя 30 см, традиционное тесто
+                                </p>
+                            </div>
+                            <div class="check__blockPrice">
+                                599₽
+                            </div>
+                        </div>
+                    </div>
+                    <div class="check__total">
+                        <div class="check__totalName">
+                            Сумма заказа
+                        </div>
+                        <div class="check__totalPrice">
+                            1 048 ₽
+                        </div>
+                    </div>
+                    <div class="check__priceDeliviry">
+                        Беспалтная доставка
+                    </div>
+                </div>
+            </div>
+            <div class="order__payment">
+                <h3 class="title">
+                    Способы оплаты
+                </h3>
+                <div class="data">
+                    <form action="" class="form">
+                        <label class="form__label">
+                            <input type="checkbox">
+                            <img src="#" alt="">
+                            Картой на сайте
+                        </label>
+                        <label class="form__label">
+                            <input type="text" placeholder="Номер карты">
+                        </label>
+                        <label class="form__label">11/25
+                            <input type="textarea" placeholder="ул. КИМа, д. 1, под. Последний, эт. Последний, кв. 22, код Домофон">
+                        </label>
+                        <label class="form__label">CVC
+                            <input type="text" placeholder="Побыстрее">
+                        </label>
+                        <label class="form__label">
+                            <input type="checkbox">
+                            Наличными
+                        </label>
+                    </form>
+                    <div class="data__txt">
+                        <img src="#" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="order__subscription">
+                <label>
+                    <input type="checkbox">
+                    <img src="#" alt="">
+                    Сообщать о бонусах, акциях и новых продуктах
+                    <img src="#" alt="">
+                </label>
+            </div>
+            <form class="form" action="./registration.html">
+                <div class="container3">
+                    <div class="form__blocks">
+                        <a href="./index.html" class="back">Вернуться в магазин</a>
+                        <input type="submit" value="Оформить заказ">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    @@include('html/footer.html')
+</body>
+</html>
