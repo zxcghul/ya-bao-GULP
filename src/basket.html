@@ -206,46 +206,7 @@
             </div>
         </form>
     </main>
-    <div class="modal4">
-        <div class="modalRegister modalRegister__access">
-            <div class="modalRegister__logo">
-                <h3>Вход на сайт</h3>
-            </div>
-            <div class="modalRegister__txt">
-                <div class="registerInput">
-                    <div class="registerInput__txt">
-                        <p>Номер телефона</p>
-                    </div>
-                    <input type="text" class="registerInput__input" placeholder="+7 999 999-99-99"> 
-                    <!-- registerInput__input__inactive -->
-                    <div class="edit">
-                        Изменить
-                    </div>
-                </div>
-                <div class="registerSMS">
-                    <div class="registerSMS__txt">
-                        <p>Код из СМС</p>
-                    </div>
-                    <input type="text" class="registerSMS__input" placeholder="1 2 3 4">
-                    <!-- registerSMS__input__inactive -->
-                    <div class="edit">
-                        Получить новый код
-                    </div>
-                </div>
-                <div class="registerBtn">
-                    <button class="registerBtn__btn">
-                        <p>Выслать код</p>
-                    </button>
-                    <div class="registerBtn__txt">
-                        Продолжая, вы соглашаетесь <span>со сбором и обработкой персональных данных и пользовательским соглашением</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="close">
-            <img src="./img/modal/close.svg" alt="">
-        </div>
-    </div>
+    @@include('html/modalRegister.html')
     @@include('html/modal.html')
     @@include('html/modalDeliviry.html')
     @@include('html/modalDeliviryTime.html')
