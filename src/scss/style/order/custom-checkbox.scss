@@ -1,0 +1,6 @@
+.custom-checkbox {
+    display: none;
+    &:checked + .fake::before {
+        opacity: 1;
+    }
+}

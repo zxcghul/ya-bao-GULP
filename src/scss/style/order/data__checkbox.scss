@@ -1,0 +1,37 @@
+.data__checkbox, .custom {
+    display: flex;
+    padding: 0 0 1.4rem 0;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.7rem;
+    color: #213134;
+    img {
+        width: 3.6rem;
+        margin: 0 .7rem 0 0;
+    }
+    .fake {
+        position: relative;
+        width: 1.9rem;
+        height: 1.9rem;
+        margin: 0 1.6rem 0 0;
+        border: .2rem solid #FF2E65;
+        border-radius: 100%;
+        &::before {
+            content: '';
+            position: absolute;
+            transform: translate(53%, 53%);
+            border-radius: 50%;
+            display: inline-block;
+            width: .7rem;
+            height: .7rem;
+            background: #FF2E65;
+            opacity: 0;
+            transition: .2s;
+        }
+    }
+}
+
+
