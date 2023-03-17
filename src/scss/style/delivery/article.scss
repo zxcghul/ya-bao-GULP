@@ -6,5 +6,7 @@
     line-height: 3.7rem;
     text-align: center;
     color: #FF2E65;
-
+    @media (max-width: 768px) {
+        display: none;
+    }
 }

@@ -2,4 +2,8 @@
     margin-top: 2rem;
     display: flex;
     justify-content: space-between;
+    @media (max-width: 768px) {
+        justify-content: right;
+        // white-space: nowrap;
+    }
 }

@@ -8,5 +8,8 @@
     text-transform: uppercase;
     text-decoration: none;
     color: #FF2E65;
-
+    @media (max-width: 768px) {
+        white-space: nowrap;
+        padding-left: 0;
+    }
 }
