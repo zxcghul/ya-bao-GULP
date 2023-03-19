@@ -9,4 +9,7 @@
     font-size: 1.4rem;
     line-height: 2.8rem;
     color: #696F7A;
+    @media (max-width: 768px) {
+        display: none;
+    }
 }
