@@ -1,7 +1,6 @@
 .tel {
     padding: 0 0 1.9rem 0;
     a {
-        
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 700;
@@ -10,5 +9,9 @@
         text-transform: uppercase;
         color: #FF2E65;
         text-decoration: none;
+        @media (max-width: 768px) {
+            font-size: 3rem;
+            line-height: 4rem;
+        }
     }
 }

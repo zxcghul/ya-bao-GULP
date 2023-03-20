@@ -1,3 +1,6 @@
 .basket {
     padding-left: 3rem;
+    @media (max-width: 768px) {
+        padding: 0;
+    }
 }

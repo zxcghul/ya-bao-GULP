@@ -1,3 +1,6 @@
 .sauces {
     padding: 0 0 4.3rem 0;
+    @media (max-width: 768px) {
+        padding: 0 0 8rem 0;
+    }
 }

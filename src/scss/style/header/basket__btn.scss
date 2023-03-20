@@ -9,4 +9,8 @@
     background: #FF2E65;
     border-radius: 0.8rem;
     color: #FFFFFF;
+    @media (max-width: 768px) {
+        font-size: 2rem;
+        line-height: 3.2rem;
+    }
 }

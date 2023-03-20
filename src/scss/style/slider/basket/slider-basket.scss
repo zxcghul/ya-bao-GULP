@@ -15,6 +15,9 @@
     background: #FFFFFF;
     border: .15rem solid #E2E2E9;
     border-radius: 1.2rem;
+    @media (max-width: 768px) {
+        border: none;
+    }
 }
 
 .txtSlider {

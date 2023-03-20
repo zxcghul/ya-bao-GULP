@@ -11,5 +11,8 @@
             width: 18rem;
             padding: 0.7rem 2.7rem;
         }
+        @media (max-width: 768px) {
+            display: none;
+        }
     }
 }

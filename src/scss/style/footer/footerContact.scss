@@ -9,4 +9,10 @@
     .imageSocial {
         padding-bottom: 10.3rem;
     }
+    .social {
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+    
 }

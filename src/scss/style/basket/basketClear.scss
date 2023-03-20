@@ -4,9 +4,21 @@
     width: 1.7rem;
     height: 1.7rem;
     margin: 0 0 0 4.2rem;
+    @media (max-width: 768px) {
+        width: 2.7rem;
+        height: 2.7rem;
+        background-size: 2.7rem 2.7rem;
+        margin: 0 0 0 2.2rem;
+    }
 }
 
 .basketClear:hover {
     background: url(../img/basket/clear__red.svg) no-repeat;
     background-size: 1.7rem 1.7rem;
+    @media (max-width: 768px) {
+        width: 2.7rem;
+        height: 2.7rem;
+        background-size: 2.7rem 2.7rem;
+        margin: 0 0 0 2.2rem;
+    }
 }

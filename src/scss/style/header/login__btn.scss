@@ -8,4 +8,8 @@
 
 
     color: #696F7A;
+    @media (max-width: 768px) {
+        font-size: 2rem;
+        line-height: 3.2rem;
+    }
 }

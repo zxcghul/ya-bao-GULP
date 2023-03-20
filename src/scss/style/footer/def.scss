@@ -9,4 +9,7 @@
         line-height: 2.8rem;
         color: #0E0C0D;
     }
+    @media (max-width: 768px) {
+        padding-top: 0;
+    }
 }
